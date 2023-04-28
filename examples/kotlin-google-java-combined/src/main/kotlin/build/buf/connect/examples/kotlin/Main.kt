@@ -31,7 +31,7 @@ class Main {
     companion object {
 
         @JvmStatic
-        fun main(args: Array<String> {
+        fun main(args: Array<String>) {
             var useLiteSerialization = false
             runBlocking {
                 val host = "https://demo.connect.build"
